@@ -136,7 +136,7 @@ async function sendEmail(text, apiKey, toEmail) {
     body: JSON.stringify({
       from: 'AI Builders Digest <digest@resend.dev>',
       to: [toEmail],
-      subject: `AI Builders Digest — ${new Date().toLocaleDateString('en-US', {
+      subject: `Spandana's Custom AI Builders Digest — ${new Date().toLocaleDateString('en-US', {
         weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
       })}`,
       text: text
